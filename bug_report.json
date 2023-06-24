@@ -1,0 +1,19 @@
+{
+  "id": "1234",
+  "project": "Yet enother project",
+  "title": "After click Upgrade button in the Main menu, the server returns a 404 status code",
+  "repeatability": "100%",
+  "version": "2.3401 dev",
+  "preconditions": "For accounts with Free plan",
+  "STR": "1. Log in with the Free plan account \n 2. Click the Hamburger button to call up the Main menu \n 3. Click the Upgrade button",
+  "actual_result": "The Subscription page does not load, the server returns a 404 status code",
+  "expected_result": "The Subscription page is loading",
+  "status": "open",
+  "severity": "blocker",
+  "priority": "high",
+  "environment": "Google Chrome 114.0.5735.134",
+  "attachment": "Subscription_404.log",
+  "reporter": "Aleksandr Makushev",
+  "assignee": "Backend developer name",
+  "observers": "Backend lead, QA lead, enother QA employee"
+}
